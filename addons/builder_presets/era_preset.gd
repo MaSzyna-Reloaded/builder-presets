@@ -252,9 +252,10 @@ const BLOK_U_MAX: float = 236.0 / 256.0
 }
 
 @export_group("Waters")
-## A water's surface (natural=water): the game's material of the water shader (textures/@water06.mat:
-## shader water - its normal map, dudv waves, reflection) and the metres one repeat covers
-@export var water_texture: String = "@water06"
+## A water's surface (natural=water): the world assets' material (common_terrain/water.tres: the
+## game's @water06 waves and reflection, clear where shallow, foam at the shore) and the metres one
+## repeat covers
+@export var water_material: String = "res://world_assets/common_terrain/water.tres"
 @export var water_metres: float = 20.0
 
 @export_group("Town")
