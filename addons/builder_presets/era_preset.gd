@@ -143,6 +143,11 @@ const BLOK_U_MAX: float = 236.0 / 256.0
 @export var bridge_texture: String = "beton001"
 @export var bridge_texture_metres: float = 4.0
 
+@export_group("Tunnels")
+## A tunnel's tube and headwalls (SITunnels): the texture and the metres one repeat of it covers
+@export var tunnel_texture: String = "beton001"
+@export var tunnel_texture_metres: float = 4.0
+
 @export_group("Fences")
 ## A fence's segment model by its type (the description's FenceType by its name): [path, its length from
 ## its origin [m], the axis it runs along from it: X_NEGATIVE, Z_POSITIVE, X_CENTRED] - measured on its
