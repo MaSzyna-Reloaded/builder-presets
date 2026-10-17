@@ -259,15 +259,13 @@ const BLOK_U_MAX: float = 236.0 / 256.0
 @export var water_metres: float = 20.0
 
 @export_group("Town")
-## The sidewalks' slabs, the paved paths and squares, the kerbs, a playground's sand - each with the
-## metres one repeat of it covers
+## The sidewalks' slabs, the paved paths and squares, the kerbs - each with the metres one repeat of
+## it covers (a playground's sand is the terrain's)
 @export var town_sidewalk_texture: String = "chodnik-1x2m"
 @export var town_sidewalk_metres: float = 2.0
 @export var town_path_texture: String = "kostka_szara"
 @export var town_path_metres: float = 2.0
 @export var town_kerb_texture: String = "beton_white"
-@export var town_sand_texture: String = "piach_plaza"
-@export var town_sand_metres: float = 5.0
 ## A playground's equipment, recoloured (the facades' material)
 @export var town_equipment_texture: String = "beton_white"
 ## Benches and waste baskets: [path, skin, range] of the game's models as the nodebank lists them
