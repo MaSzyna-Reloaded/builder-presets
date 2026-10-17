@@ -251,6 +251,12 @@ const BLOK_U_MAX: float = 236.0 / 256.0
     "railway=buffer_stop": PackedStringArray(["oporowe"]),
 }
 
+@export_group("Waters")
+## A water's surface (natural=water): the game's material of the water shader (textures/@water06.mat:
+## shader water - its normal map, dudv waves, reflection) and the metres one repeat covers
+@export var water_texture: String = "@water06"
+@export var water_metres: float = 20.0
+
 @export_group("Town")
 ## The sidewalks' slabs, the paved paths and squares, the kerbs, a playground's sand - each with the
 ## metres one repeat of it covers
